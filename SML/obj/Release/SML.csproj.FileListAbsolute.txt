@@ -1,0 +1,13 @@
+C:\Users\Thomas\source\repos\SML\SML\bin\Release\SML.exe.config
+C:\Users\Thomas\source\repos\SML\SML\bin\Release\SML.exe
+C:\Users\Thomas\source\repos\SML\SML\bin\Release\SML.pdb
+C:\Users\Thomas\source\repos\SML\SML\bin\Release\Newtonsoft.Json.xml
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.MainForm.resources
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.Properties.Resources.resources
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.csproj.GenerateResource.cache
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.csproj.CopyComplete
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.exe
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.pdb
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\SML\SML\obj\Release\SML.csproj.Fody.CopyLocal.cache
