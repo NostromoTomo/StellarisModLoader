@@ -10,3 +10,16 @@ C:\Users\Thomas\source\repos\SML\SML\bin\Release\Stellaris Mod Loader.exe
 C:\Users\Thomas\source\repos\SML\SML\bin\Release\Stellaris Mod Loader.pdb
 C:\Users\Thomas\source\repos\SML\SML\obj\Release\Stellaris Mod Loader.exe
 C:\Users\Thomas\source\repos\SML\SML\obj\Release\Stellaris Mod Loader.pdb
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\bin\Release\Stellaris Mod Loader.exe.config
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\bin\Release\Stellaris Mod Loader.exe
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\bin\Release\Stellaris Mod Loader.pdb
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\bin\Release\Newtonsoft.Json.xml
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\StellarisModLoader.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\SML.MainForm.resources
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\SML.Properties.Resources.resources
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\StellarisModLoader.csproj.GenerateResource.cache
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\StellarisModLoader.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\StellarisModLoader.csproj.Fody.CopyLocal.cache
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\StellarisModLoader.csproj.CopyComplete
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\Stellaris Mod Loader.exe
+C:\Users\Thomas\source\repos\SML\StellarisModLoader\SML\obj\Release\Stellaris Mod Loader.pdb

@@ -10,10 +10,11 @@ namespace SML
 {
     public struct ModPanel
     {
-        public ModPanel(string OrderString, string ModString, string ModIdentification, string ModDirectory, bool IsEnabled)
+        public ModPanel(string OrderString, string ModString, string ModIdentification, string ModDirectory, string ModSteamID, bool IsEnabled)
         {
             this.ModIdentification = ModIdentification;
             this.ModDirectory = ModDirectory;
+            this.ModSteamID = ModSteamID;
 
             MainPanel = new Panel();
             MainPanel.Size = new Size(782, 40);
@@ -56,6 +57,7 @@ namespace SML
         public CheckBox Enabled { get; set; }
         public string ModIdentification { get; set; }
         public string ModDirectory { get; set; }
+        public string ModSteamID { get; set; }
     }
 
     public class ModRegistryJSON
@@ -118,6 +120,7 @@ namespace SML
         {
             disabled_dlcs = new List<string>();
             enabled_mods = new List<string>();
+            modsOrderSteamID = new List<string>();
             modsOrder = new List<string>();
             isEulaAccepted = false;
         }
@@ -125,6 +128,7 @@ namespace SML
         public List<string> disabled_dlcs { get; set; }
         public List<string> enabled_mods { get; set; }
         public List<string> modsOrder { get; set; }
+        public List<string> modsOrderSteamID { get; set; }
         public bool isEulaAccepted { get; set; }
     }
 }

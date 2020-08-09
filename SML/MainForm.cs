@@ -103,7 +103,7 @@ namespace SML
                     if (DLJ.enabled_mods.Find(x => x == Mod.gameRegistryId) != null) IsEnabled = true;
 
                     //Create new ModPanel
-                    ModPanel mPanel = new ModPanel(ModNumber.ToString(), Mod.displayName, ID, Mod.gameRegistryId, IsEnabled);
+                    ModPanel mPanel = new ModPanel(ModNumber.ToString(), Mod.displayName, ID, Mod.gameRegistryId, Mod.steamId, IsEnabled);
 
                     //Add to container
                     MainModPanel.Controls.Add(mPanel.MainPanel);
@@ -229,7 +229,7 @@ namespace SML
 
             if (ParentPanel != null)
             {
-                if (SelectedPanel != ParentPanel) SelectedPanel.BackColor = Color.Salmon;
+                if (SelectedPanel != ParentPanel) SelectedPanel.BackColor = Color.Transparent;
                 SelectedPanel = ParentPanel;
             }
         }
@@ -336,6 +336,22 @@ namespace SML
                     ClearList();
                     CustomOrderList COL = JSONFormatting.ParseCustomOrderList(file);
                     GameDataJSON GDJ = new GameDataJSON(COL);
+                    GDJ.modsOrder.Clear();
+
+                    foreach (string g in COL.modsOrderSteamID)
+                    {
+                        foreach (KeyValuePair<string, ModRegistryJSON> m in ListOfMods)
+                        {
+                            if (m.Value.steamId == g)
+                            {
+                                GDJ.modsOrder.Add(m.Value.objectKey);
+                                break;
+                            }
+                        }
+                    }
+
+                    GDJ.isEulaAccepted = COL.isEulaAccepted;
+
                     DLCLoadJSON DLJ = new DLCLoadJSON(COL);
 
                     CreateList(ListOfMods, GDJ, DLJ);
@@ -387,6 +403,11 @@ namespace SML
                     ResetList();
                 }              
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

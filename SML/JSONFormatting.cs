@@ -140,6 +140,7 @@ namespace SML
                 else COL.disabled_dlcs.Add(ModList[ModNumber].ModDirectory);
 
                 COL.modsOrder.Add(ModList[ModNumber].ModIdentification);
+                COL.modsOrderSteamID.Add(ModList[ModNumber].ModSteamID);
             }
 
             COL.isEulaAccepted = true;
